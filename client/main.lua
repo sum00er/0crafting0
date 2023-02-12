@@ -1,3 +1,4 @@
+print("^20crafting0 by sum00er. https://discord.gg/pjuPHPrHnx")
 if Config.oldESX then 
     ESX = nil
     TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
