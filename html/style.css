@@ -1,0 +1,161 @@
+body {
+    background-color: transparent;
+    display: none;
+}
+
+button {
+    border: transparent;
+    background-color: transparent;
+    background-color: #ff404046;
+    border-radius: 8px;
+    padding: 8px;
+    border: 2px solid transparent;
+    text-shadow: 2px 1px 3px rgba(139, 72, 88, 0.7);
+}
+
+button:hover {
+    background-color: #6c191946;
+}
+
+button.active {
+    border: 2px solid white;
+    color: white;
+}
+
+
+.container {
+    position: absolute;
+    width: 680px;
+    height: 450px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(177, 177, 177, 0.7);
+    border-radius: 10px;
+}
+
+.disable-select {
+    user-select: none;
+}
+
+.dream {
+    position: absolute;
+    right: 30px;
+    top: 0;
+    height: 70px;
+    width: 30px;
+}
+
+.title {
+    font-size: 30px;
+    border-bottom: 3px solid #ffff;
+}
+
+.lowr {
+    font-size: 20px;
+}
+
+.items {
+    height: 280px;
+    overflow: auto;
+}
+
+.cat {
+    overflow-x: auto;
+    height: 60px;
+    white-space: nowrap;
+}
+
+.item {
+    text-align: center;
+    padding: 0px;
+    height: 138px;
+    width: 138px;
+    border-radius: 8px;
+    border: 2px solid rgb(206, 206, 206);
+    background: rgb(202, 173, 180);
+    background: radial-gradient(circle, rgb(202, 173, 180) 0%, rgba(202, 173, 180, 0.4) 50%, rgba(255, 255, 255, 0) 100%);
+}
+
+.item-img {
+    object-fit: cover;
+    overflow: hidden;
+    opacity: 1;
+    transition: 0.2s;
+}
+
+.item-desc {
+    position: relative;
+    opacity: 0;
+    top: -100px;
+    transition: 0.2s;
+}
+
+.mattitle {
+    font-size: 20px;
+    border-bottom: 2px solid black;
+}
+
+.back {
+    position: absolute;
+    left: 40px;
+    top: 20px;
+    display: none;
+}
+
+.infoitem {
+    border-radius: 8px;
+    padding: 5px;
+    padding-bottom: 8px;
+    border: 2px solid rgb(207, 178, 178);
+    margin: 15px;
+}
+
+.matlist {
+    padding: 3px;
+    height: 290px;
+    overflow: auto;
+    width: auto;
+
+}
+
+.matlist p {
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+input:focus {
+    outline: 0;
+}
+
+input {
+    border-radius: 5px;
+    line-height: 2;
+    width: 100px;
+    border: 0.1px solid rgba(255, 255, 255, 0, 7);
+    background-color: transparent;
+    margin: 10px;
+}
+
+.info {
+    display: none;
+}
+
+::-webkit-scrollbar {
+    height: 10px;
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #66666640;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
